@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://i.pinimg.com/originals/f0/a7/28/f0a7285b524e23fb3c572d57200b02ec.png" type="image/x-icon">
-    <title>Sign Up</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/f0/a7/28/f0a7285b524e23fb3c572d57200b02ec.png"
+        type="image/x-icon" />
+    <title>LOGIN</title>
 </head>
+
 <body>
-    
+    <!-- HEADER -->
+    <header>
+        <h1>BIENVENIDOS A LA TIENDA MUNDIAL DE FUTBOL SOCCER ⚽</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                    
+                </li>
+                <li>
+                    <a href="./login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <hr />
+    <main>
+        <!-- Form -->
+
+        <form>
+            <fieldset>
+                <legend>Sign Up</legend>
+
+                <div>
+                    <label for="name">First name: </label>
+                    <br />
+                    <input type="text" name="name" id="name" placeholder="First Name" />
+                </div>
+                <br />
+                <div>
+                    <label for="Inemail">Gmail</label>
+                    <br />
+                    <input type="email" name="Inemail" id="Inemail" placeholder="example@email.com" />
+                </div>
+                <br />
+                <div>
+                    <label for="Cname">Country name</label>
+                    <br />
+                    <!-- Line break -->
+                    <select name="Cname" id="Cname">
+                        <option value="mx">MÉXICO</option>
+                        <option value="br">BRAZIL</option>
+                        <option value="us">USA</option>
+                        <option value="col">COLOMBIA</option>
+                    </select>
+                </div>
+                <br />
+                <div>
+                    <p>Gender</p>
+                    <input type="radio" name="gender" id="male" value="Male" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="Female" />
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="Other" />
+                    <label for="other">Other</label>
+                </div>
+                <br />
+                <div>
+                    <input type="checkbox" name="LegalPolicy" id="LegalPolicy" value="true" />
+                    <label for="LegalPolicy">Accept terms</label>
+                    <br />
+                    <input type="checkbox" name="reCorreos" id="reCorreos" value="true" />
+                    <label for="reCorreos">Accept</label>
+                </div>
+                <br />
+                <div>
+                    <!-- <input type="submit" value="SignUp"> -->
+                    <button type="submit">Login</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <hr />
+    <a href="../index.html">Return to Home</a>
+
+    <footer>
+        <h5>Todos los derechos reservados ©2024 - Alan David Mendez Vazquez</h5>
+    </footer>
 </body>
 </html>

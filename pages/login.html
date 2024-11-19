@@ -10,17 +10,19 @@
     />
     <title>LOGIN</title>
   </head>
+
   <body>
     <!-- HEADER -->
     <header>
-        <h1>BIENVENIDOS A LA TIENDA MUNDIAL DE FUTBOL SOCCER ⚽</h1>
+      <h1>BIENVENIDOS A LA TIENDA MUNDIAL DE FUTBOL SOCCER ⚽</h1>
       <nav>
         <ul>
           <li>
-            <a href="./signUp.html">Sign Up</a>
+            <a href="../index.html">Home</a>
+            
           </li>
           <li>
-            <a href="../index.html">Home</a>
+            <a href="./signUp.html">Sign Up</a>
           </li>
         </ul>
       </nav>
@@ -30,69 +32,61 @@
     <main>
       <!-- Form -->
 
-      <h2>Login</h2>
       <form>
-        <div>
-          <label for="name">First name: </label>
+        <fieldset>
+          <legend>Login</legend>
+          <div>
+            <label for="Inemail">👥</label>
+            <input
+              type="email"
+              name="Inemail"
+              id="Inemail"
+              placeholder="Email / Username"
+              required
+            />
+          </div>
           <br />
-          <input type="text" name="name" id="name" placeholder="First Name" />
-        </div>
-        <br />
-        <div>
-          <label for="Inemail">Gmail</label>
+          <div>
+            <label for="Inpassword">🔒</label>
+            <input
+              type="password"
+              name="Inpassword"
+              id="Inpassword"
+              placeholder="Password"
+              required
+            />
+          </div>
           <br />
-          <input
-            type="email"
-            name="Inemail"
-            id="Inemail"
-            placeholder="example@email.com"
-          />
-        </div>
-        <br />
-        <div>
-          <label for="Cname">Country name</label>
+          <div>
+            <input
+              type="checkbox"
+              name="LegalPolicy"
+              id="LegalPolicy"
+              value="true"
+            />
+            <label for="LegalPolicy">Acepta Terminos y Condiciones 📖</label>
+            <br />
+            <input
+              type="checkbox"
+              name="reCorreos"
+              id="reCorreos"
+              value="true"
+            />
+            <label for="reCorreos">Acepta Cookies 🍪</label>
+          </div>
           <br />
-          <!-- Line break -->
-          <select name="Cname" id="Cname">
-            <option value="mx">MÉXICO</option>
-            <option value="br">BRAZIL</option>
-            <option value="us">USA</option>
-            <option value="col">COLOMBIA</option>
-          </select>
-        </div>
-        <br />
-        <div>
-          <p>Gender</p>
-          <input type="radio" name="gender" id="male" value="Male" />
-          <label for="male">Male</label>
-          <input type="radio" name="gender" id="female" value="Female" />
-          <label for="female">Female</label>
-          <input type="radio" name="gender" id="other" value="Other" />
-          <label for="other">Other</label>
-        </div>
-        <br />
-        <div>
-          <input
-            type="checkbox"
-            name="LegalPolicy"
-            id="LegalPolicy"
-            value="true"
-          />
-          <label for="LegalPolicy">Accept terms</label>
-          <br />
-          <input type="checkbox" name="reCorreos" id="reCorreos" value="true" />
-          <label for="reCorreos">Accept</label>
-        </div>
-        <br />
-        <div>
-          <!-- <input type="submit" value="SignUp"> -->
-          <button type="submit">Sign Up</button>
-        </div>
+          <div>
+            <!-- <input type="submit" value="SignUp"> -->
+            <button type="submit">Login</button>
+          </div>
+        </fieldset>
       </form>
     </main>
-    <hr />
-    <a href="../index.html">Return to Home</a>
-
-    <footer><h5>Todos los derechos reservados ©2024 - Alan David Mendez Vazquez</h5></footer>
+    <br>
+    <img src="../images/soccer-488700_1280.jpg" alt="Fondo Login" width="700px">
+    <hr>
+    <footer>
+      <h5>Todos los derechos reservados ©2024 - Alan David Mendez Vazquez</h5>
+    </footer>
   </body>
 </html>
