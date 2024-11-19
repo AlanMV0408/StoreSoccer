@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style_index.css" />
-    <link rel="shortcut icon"href="https://i.pinimg.com/originals/f0/a7/28/f0a7285b524e23fb3c572d57200b02ec.png" type="image/x-icon"/>
+    <link
+      rel="shortcut icon"
+      href="https://i.pinimg.com/originals/f0/a7/28/f0a7285b524e23fb3c572d57200b02ec.png"
+      type="image/x-icon"
+    />
     <title>Store Futbol</title>
   </head>
 
@@ -12,16 +16,18 @@
     <main>
       <nav>
         <h1>BIENVENIDOS A LA TIENDA MUNDIAL DE FUTBOL SOCCER ⚽</h1>
+        <br />
         <a href="./pages/login.html">Log In</a>
-        <br/>
+        <br />
         <a href="./pages/signUp.html">Sign Up</a>
-        <br>
-        <a href="#playeras">Playeras 👕</a> <br>
-        <a href="#tenis">Taquetes 👟</a> <br>
-        <a href="#balones">Balones ⚽</a> <br>
+        <br />
+        <a href="#playeras">Playeras 👕</a> <br />
+        <a href="#tenis">Taquetes 👟</a> <br />
+        <a href="#balones">Balones ⚽</a> <br />
       </nav>
-      <hr />
-      <img src="./images/balls.jpg" alt="" width="100%" />
+      <hr>
+  
+      <img src="./images/balls.jpg" alt="" width="100%" height="500px"/>
       <br />
 
       <p>FUTBOL SOCCER</p>
@@ -30,52 +36,56 @@
       <h2 id="playeras">PLAYERAS</h2>
       <!-- TABLAS -->
       <table border="2px">
-        <tr>
-          <th>TALLA</th>
-          <th>MARCA</th>
-          <th>COLOR</th>
-          <th>MATERIAL</th>
-          <th>PRECIO</th>
-          <th>COMPRAR</th>
-        </tr>
-        <tr>
-          <td>CH</td>
-          <td>NIKE</td>
-          <td style="color: rgb(90, 90, 243)">Blue</td>
-          <td>LICRA</td>
-          <td>$100</td>
+        <thead>
+          <tr>
+            <th>TALLA</th>
+            <th>MARCA</th>
+            <th>COLOR</th>
+            <th>MATERIAL</th>
+            <th>PRECIO</th>
+            <th>COMPRAR</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CH</td>
+            <td>NIKE</td>
+            <td style="color: rgb(90, 90, 243)">Blue</td>
+            <td>LICRA</td>
+            <td>$100</td>
+            <td>
+              <button>AÑADIR A CARRITO</button>
+            </td>
+          </tr>
+          <tr>
+            <td>M</td>
+            <td>ADIDAS</td>
+            <td style="color: black">Black</td>
+            <td>ALGODÓN</td>
+            <td>$110</td>
+            <td>
+              <button>AÑADIR A CARRITO</button>
+            </td>
+          </tr>
+          <tr>
+            <td>G</td>
+            <td>PUMA</td>
+            <td style="color: rgb(246, 0, 0)">Red</td>
+            <td>POLIÉSTER</td>
+            <td>$150</td>
+            <td>
+              <button>AÑADIR A CARRITO</button>
+            </td>
+          </tr>
+          <td>EG</td>
+          <td>NEW BALANCE</td>
+          <td style="color: rgb(55, 149, 66)">Green</td>
+          <td>NYLON</td>
+          <td>$200</td>
           <td>
             <button>AÑADIR A CARRITO</button>
           </td>
-        </tr>
-        <tr>
-          <td>M</td>
-          <td>ADIDAS</td>
-          <td style="color: black">Black</td>
-          <td>ALGODÓN</td>
-          <td>$110</td>
-          <td>
-            <button>AÑADIR A CARRITO</button>
-          </td>
-        </tr>
-        <tr>
-          <td>G</td>
-          <td>PUMA</td>
-          <td style="color: rgb(246, 0, 0)">Red</td>
-          <td>POLIÉSTER</td>
-          <td>$150</td>
-          <td>
-            <button>AÑADIR A CARRITO</button>
-          </td>
-        </tr>
-        <td>EG</td>
-        <td>NEW BALANCE</td>
-        <td style="color: rgb(55, 149, 66)">Green</td>
-        <td>NYLON</td>
-        <td>$200</td>
-        <td>
-          <button>AÑADIR A CARRITO</button>
-        </td>
+        </tbody>
       </table>
       <div class="galery_playeras">
         <figure>
@@ -104,6 +114,7 @@
       <hr />
       <h2 id="tenis">TAQUETES - TENIS</h2>
       <table border="2px">
+      <thead>
         <tr>
           <th>TALLA</th>
           <th>MARCA</th>
@@ -111,6 +122,8 @@
           <th>PRECIO</th>
           <th>COMPRAR</th>
         </tr>
+      </thead>
+      <tbody>
         <tr>
           <td>20-25cm</td>
           <td>NIKE</td>
@@ -129,6 +142,7 @@
             <button>AÑADIR A CARRITO</button>
           </td>
         </tr>
+      </tbody>
       </table>
       <div class="galery_tenis">
         <figure>
@@ -145,7 +159,7 @@
         </figure>
       </div>
       <article>
-        <hr>
+        <hr />
         <header><h3 id="balones">BALONES MUNDIALISTAS</h3></header>
         <figure>
           <img
@@ -159,7 +173,7 @@
           de los partidos de Futbol que se disputan en los mundiales. <br />
           Los mundiales se organizan cada 4 años y se celebran en diferentes
           paises del todo el mundo. 🌐. <br /><br />
-          <b>LISTA DE LOS BALONES MUNDIALISTAS</b>
+          <p class="listBalon"><b>LISTA DE LOS BALONES MUNDIALISTAS</b></p>
         </p>
         <div class="balones">
           <ol>
@@ -188,12 +202,16 @@
           </ol>
           <a
             href="https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/todos-los-balones-de-la-historia-de-los-mundiales-pelotas-modelos-estilos"
-            target="_blank">VER MAS INFORMACIÓN</a>
-            <br>
+            target="_blank"
+            >VER MAS INFORMACIÓN</a
+          >
+          <br><br>
         </div>
       </article>
-      <hr>
+      <hr />
     </main>
-    <footer><h4>Todos los derechos reservados ©2024 - Alan David Mendez Vazquez</h4></footer>
+    <footer>
+      <h4>Todos los derechos reservados ©2024 - Alan David Mendez Vazquez</h4>
+    </footer>
   </body>
 </html>
